@@ -1,0 +1,25 @@
+
+
+============================== 2023-11-03 17:22:09.972180 | 54c92a37-9317-466f-b1e5-1dc3e0cac39a ==============================
+17:22:09.972210 [info ] [MainThread]: Running with dbt=1.1.5
+17:22:09.972854 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/nishantraghuvanshi/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+17:22:09.973093 [debug] [MainThread]: Tracking: tracking
+17:22:10.061148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed49d0a520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed49d0af40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed49d0af10>]}
+17:23:29.143309 [debug] [MainThread]: Starter project path: /Users/nishantraghuvanshi/opt/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+17:23:36.570590 [info ] [MainThread]: 
+Your new dbt project "dbt_dopa" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+17:23:36.571692 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed49d1f0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed49d1f4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed49d1f130>]}
